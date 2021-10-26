@@ -1,3 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+#linkedIn{
+    margin-top: 1.5px;
+}
