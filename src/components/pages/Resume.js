@@ -54,34 +54,34 @@ export default function Example() {
           HTML5,CSS3, Javascript, Bootstrap, Tailwind, Node Js, Express, MuSQL, Handlebars.js, Heroku, Insomnia
         </p>
         <h2 className="mt-4 text-black text-2xl font-bold">Projects</h2>
-          <p className="text-indigo-500">
-          <span>Gamers Unite</span>
-        <ol className="text-gray-500">
+        
+          <span className="text-indigo-500">Gamers Unite</span>
+        <ul className="text-gray-500">
           <li>A Gamers Information hub, that allows the storage of Game Information, as well as a forum in order to discuss aspects of each game.</li>
           <li>Primarily responsible for UI/UX of application.</li>
           <li className="mb-4">HTML5, Tailwind, Javascript, Node Js, Express, MySQL, Heroku, Handlebars.js</li>
-          </ol>
-          <span className="mt-6">README Generator </span>
-          <ol className="text-gray-500">
+          </ul>
+          <span className="mt-6 text-indigo-500">README Generator </span>
+          <ul className="text-gray-500">
           <li>An ever evolving README Generator.</li>
           <li>Created the entire Application.</li>
           <li>HTML 5, Javascript, Node.js.</li>
-        </ol>
-        </p>
+        </ul>
+        
         <h2 className="mt-4 text-black text-2xl font-bold">Experience</h2>
-          <p className="text-indigo-500">
-          <span>Akon Auto Center- Owner (2012-Present)</span>
-        <ol className="text-gray-500">
+          <span className="text-indigo-500">Akon Auto Center- Owner (2012-Present)</span>
+          
+        <ul className="text-gray-500">
           <li>Recruited and Supervised a team of 8. </li>
           <li className="mb-4">Orchestrated a business that after 2 years achieved an annual gross sale of $1,000,000. </li>
-          </ol>
-          <span className="mt-6">Smog Station 1- Service Manager (2007-2012)</span>
-          <ol className="text-gray-500">
+          </ul>
+          <span className="text-indigo-500 mt-6">Smog Station 1- Service Manager (2007-2012)</span>
+          <ul className="text-gray-500">
           <li>An ever evolving README Generator.</li>
           <li>Created the entire Application.</li>
           <li>HTML 5, Javascript, Node.js.</li>
-        </ol>
-        </p>
+        </ul>
+        
         <h2 className="mt-4 text-black text-2xl font-bold">Education</h2>
           <p>
           Full Stack Web Development Certificate:UCSD Extenstion
@@ -89,7 +89,7 @@ export default function Example() {
         </div>
         <div className="mt-4 flex justify-center"> 
         <a
-        href="../downloads/akon_resume.pdf" download target="_blank"
+        href="./akon_resume.pdf" target="_blank"
         type="button"
         className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
       >
