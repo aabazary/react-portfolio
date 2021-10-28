@@ -15,6 +15,7 @@
   ```
 */
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
+import MyPDF from '../pages/akon_resume.pdf'
 
 export default function Example() {
   return (
@@ -89,7 +90,7 @@ export default function Example() {
         </div>
         <div className="mt-4 flex justify-center"> 
         <a
-        href="./akon_resume.pdf" target="_blank"
+        href={MyPDF} download="akon_resume.pdf" target="_blank" rel="noreferrer"
         type="button"
         className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
       >
