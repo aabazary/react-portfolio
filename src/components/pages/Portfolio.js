@@ -39,6 +39,34 @@ const people = [
     gitHubUrl: 'https://github.com/aabazary/workout-tracker',
     deployedUrl: 'https://fast-badlands-44381.herokuapp.com/',
   },
+  {
+    name: 'Inspiration Station',
+    role: 'An App that allows you to track your fitness progress',
+    imageUrl:
+      'https://live.staticflickr.com/65535/51635407834_d4a07a2bfe_z.jpg',
+    gitHubUrl: 'https://github.com/JoeyFitz/First-Team-Project',
+    deployedUrl: 'https://joeyfitz.github.io/First-Team-Project/',
+  },
+
+  
+  {
+    name: 'Day Planner',
+    role: 'An App that allows you to track your fitness progress',
+    imageUrl:
+      'https://live.staticflickr.com/65535/51633932762_a1deaa62f5_b.jpg',
+    gitHubUrl: 'https://github.com/aabazary/day_planner',
+    deployedUrl: 'https://aabazary.github.io/day_planner/',
+  },
+
+
+ {
+    name: 'Weather Dashboard',
+    role: 'An App that allows you to track your fitness progress',
+    imageUrl:
+      'https://live.staticflickr.com/65535/51635407994_784b44931c_b.jpg',
+    gitHubUrl: 'https://github.com/aabazary/weather_dashboard',
+    deployedUrl: 'https://aabazary.github.io/weather_dashboard/',
+  }
 ]
 
 export default function Portfolio() {
