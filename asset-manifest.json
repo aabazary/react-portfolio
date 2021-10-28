@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/aabazary/react-portfolio/static/css/main.3e8e8d88.chunk.css",
+    "main.js": "/aabazary/react-portfolio/static/js/main.51bd2ebe.chunk.js",
+    "main.js.map": "/aabazary/react-portfolio/static/js/main.51bd2ebe.chunk.js.map",
+    "runtime-main.js": "/aabazary/react-portfolio/static/js/runtime-main.6b3328b8.js",
+    "runtime-main.js.map": "/aabazary/react-portfolio/static/js/runtime-main.6b3328b8.js.map",
+    "static/css/2.cea787a4.chunk.css": "/aabazary/react-portfolio/static/css/2.cea787a4.chunk.css",
+    "static/js/2.f66b1ea2.chunk.js": "/aabazary/react-portfolio/static/js/2.f66b1ea2.chunk.js",
+    "static/js/2.f66b1ea2.chunk.js.map": "/aabazary/react-portfolio/static/js/2.f66b1ea2.chunk.js.map",
+    "index.html": "/aabazary/react-portfolio/index.html",
+    "static/css/2.cea787a4.chunk.css.map": "/aabazary/react-portfolio/static/css/2.cea787a4.chunk.css.map",
+    "static/css/main.3e8e8d88.chunk.css.map": "/aabazary/react-portfolio/static/css/main.3e8e8d88.chunk.css.map",
+    "static/js/2.f66b1ea2.chunk.js.LICENSE.txt": "/aabazary/react-portfolio/static/js/2.f66b1ea2.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6b3328b8.js",
+    "static/css/2.cea787a4.chunk.css",
+    "static/js/2.f66b1ea2.chunk.js",
+    "static/css/main.3e8e8d88.chunk.css",
+    "static/js/main.51bd2ebe.chunk.js"
+  ]
+}
