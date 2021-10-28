@@ -26,6 +26,15 @@ const navigation = [
         </svg>
       ),
     },
+    {
+      name: 'Stack Overflow',
+      href: 'https://stackoverflow.com/users/16079847/paranoia' ,
+      icon: (props) => (
+       
+<svg fill="currentColor" viewBox="0 0 32 32" {...props} width="64" height="64"><path d="M28.16 32H2.475V20.58H5.32v8.575h19.956V20.58h2.884z"/><path d="M8.477 19.8l13.993 2.923.585-2.806-13.993-2.923zm1.832-6.704l12.94 6.04 1.208-2.572-12.94-6.08zm3.586-6.353l10.99 9.12 1.832-2.183-10.99-9.12zM20.99 0l-2.3 1.715 8.536 11.46 2.3-1.715zM8.166 26.27H22.43v-2.845H8.166v2.845z" /></svg>
+       
+      ),
+    },
    
   ]
   
@@ -35,7 +44,7 @@ const navigation = [
         <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 md:flex md:items-center md:justify-between lg:px-8">
           <div className="flex justify-center space-x-6 md:order-2">
             {navigation.map((item) => (
-              <a target="_blank" key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
+              <a target="_blank" rel="noreferrer" key={item.name} href={item.href} className="text-gray-400 hover:text-gray-500">
                 <span className="sr-only">{item.name}</span>
                 <item.icon className="h-6 w-6" aria-hidden="true" />
               </a>

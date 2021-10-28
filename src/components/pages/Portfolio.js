@@ -49,7 +49,7 @@ export default function Portfolio() {
           <div className="space-y-5 sm:space-y-4 md:max-w-xl lg:max-w-3xl xl:max-w-none">
             <h2 className="text-3xl font-extrabold text-gray-100 tracking-tight sm:text-4xl">Check Out my Projects</h2>
           </div>
-          <ul role="list" className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
+          <ul className="space-y-4 sm:grid sm:grid-cols-2 sm:gap-6 sm:space-y-0 lg:grid-cols-3 lg:gap-8">
             {people.map((person) => (
               <li key={person.name} className="py-10 px-6 bg-gray-800 text-center rounded-lg xl:px-10 xl:text-left">
                 <div className="space-y-6 xl:space-y-10">
@@ -60,7 +60,7 @@ export default function Portfolio() {
                       <p className="text-indigo-400">{person.role}</p>
                     </div>
 
-                    <ul role="list" className="flex justify-center space-x-5">
+                    <ul className="flex justify-center space-x-5">
                       <li>
                         <a target="_blank " href={person.gitHubUrl} className="text-gray-400 hover:text-gray-300">
                           <span className="sr-only">GitHub</span>
@@ -70,7 +70,7 @@ export default function Portfolio() {
                         </a>
                       </li>
                       <li>
-                        <a target="_blank" href={person.deployedUrl} className="text-gray-400 hover:text-gray-300">
+                        <a target="_blank" rel="noreferrer" href={person.deployedUrl} className="text-gray-400 hover:text-gray-300">
                           <span className="sr-only">Deployed Site</span>
                           <svg className="w-6 h-6" aria-hidden="true" fill="currentColor"  viewBox="0 0 490 490">
                           <g>
