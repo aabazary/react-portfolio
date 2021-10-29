@@ -1,23 +1,8 @@
-/*
-  This example requires Tailwind CSS v2.0+ 
-  
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/typography'),
-    ],
-  }
-  ```
-*/
 import { MailIcon, PhoneIcon } from '@heroicons/react/outline'
+//required to import in order to view resume
 import MyPDF from '../pages/akon_resume.pdf'
 
-export default function Example() {
+export default function Resume() {
   return (
     <div className="relative py-16 bg-white overflow-hidden">
       <div className="hidden lg:block lg:absolute lg:inset-y-0 lg:h-full lg:w-full">
@@ -89,6 +74,7 @@ export default function Example() {
         </p>
         </div>
         <div className="mt-4 flex justify-center"> 
+        {/* required to import in order to see the pdf, pulling directly was giving errors */}
         <a
         href={MyPDF} download="akon_resume.pdf" target="_blank" rel="noreferrer"
         type="button"

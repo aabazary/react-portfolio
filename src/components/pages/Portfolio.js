@@ -1,19 +1,3 @@
-// import React from 'react';
-
-// export default function Portfolio() {
-//   return (
-//     <div>
-//       <h1>Portfolio Page</h1>
-//       <p>
-      
-//       </p>
-//     </div>
-//   );
-// }
-
-
-
-/* This example requires Tailwind CSS v2.0+ */
 const people = [
   {
     name: 'Gamers Unite',
