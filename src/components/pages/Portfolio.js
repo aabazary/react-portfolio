@@ -1,11 +1,11 @@
 const people = [
   {
-    name: 'Gamers Unite',
-    role: 'A website that allows users to view information about community games, and talk about them',
+    name: 'World of Ascension',
+    role: 'A game using the MERN stack to progress a character into a true Master of the Magical Arts',
     imageUrl:
-      'https://live.staticflickr.com/65535/51632473785_182c0a525d_b.jpg',
+      'https://live.staticflickr.com/65535/52916071739_d4eba0ee60_b.jpg',
     gitHubUrl: 'https://github.com/aabazary/Project2',
-    deployedUrl: 'https://desolate-hamlet-93651.herokuapp.com/',
+    deployedUrl: 'https://world-of-ascension.onrender.com/',
   },
   {
     name: 'Budget Tracker',
@@ -13,7 +13,7 @@ const people = [
     imageUrl:
       'https://live.staticflickr.com/65535/51632473790_96e5540da2_b.jpg',
     gitHubUrl: 'https://github.com/aabazary/budget_tracker',
-    deployedUrl: 'https://arcane-reaches-12174.herokuapp.com/',
+    deployedUrl: 'https://budget-tracker-sfll.onrender.com',
   },
   {
     name: 'Fitness Tracker',
